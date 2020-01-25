@@ -1,4 +1,4 @@
-IMAGE=carlosalgms/docker-slim-node-puppeteer
+IMAGE=carlosalgms/docker-node-slim-with-chromium
 
 docker:
 	docker build --rm -t $(IMAGE):latest .
